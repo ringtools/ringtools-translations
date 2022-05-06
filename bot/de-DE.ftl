@@ -133,12 +133,10 @@ igniter_parse_error             = Hoppla, ich konnte diesen Igniter-output nicht
 igniter_prefix_tosend           = Igniter senden
 igniter_prefix_success          = erfolgreich gesendet
 igniter_verb_collected          = angesammelt
-igniter_verb_collected          = sammelt
+igniter_verb_collects           = sammelt
 igniter_ring_summary            = <b>{$total_amt}</b> für den Ring, mit einer Gesamtgebühr von <b>{$total_fees}</b> Sats
 igniter_breakdown               = Brechen wir es herunter:
 igniter_line                    = {$icon} Kanal <code>{$chan_id}</code> von {$pkInfo} {$verb} <b>{$fee} Sats</b> Gebühr (Summe: {$sum} Sats)
-
-# -- @todo TOO TRANSLATE
 
 # Set Ringleader
 ringleader_congratulations      = Gratulation @{$username}, Du bist jetzt der Ringleader !
