@@ -23,6 +23,7 @@ not_ring_group          = This is not a ring group
 only_in_ring_group      = This command only works in a ring group.
 error_group_not_found   = Group not found
 ring_not_registered     = This group is not registered as ring.
+ring_unregistered       = I forgot all about this ring.
 
 # Notifications
 ring_poll_full          = Ring poll <b>{$poll_name}</b> is full ({$participants_max} people) - <a href="{$poll_link}">Go to poll</a>
@@ -176,3 +177,12 @@ chaninfo_invalid                = {channel_invalid_format} {chaninfo_help}
 
 # Node
 nodeinfo_error_pubkey           = {invalid_pubkey} You have to use me like <code>/{$command} [pub_key]</code>
+
+# (Super)admin
+admin_group_set_to              = Your default group is now set to <b>{$group_name}</b>
+admin_group_removed             = Group <b>{$group_name}</b> removed
+admin_ring_group_set_to         = This ring group is now set to <b>{$group_name}</b>
+admin_notification_group_set    = This notificaton group is now set to <b>{$group_name}</b>
+admin_incorrect_name            = Telegram group does not have correct 
+admin_no_groups                 = There are no groups assigned to you.
+admin_no_default_group          = There is no default group assigned to you.
