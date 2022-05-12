@@ -115,6 +115,7 @@ ringpoll_already_exists         = Poll {$poll_name} <b>already exists</b>
 ringpoll_has_participants       = Poll {$poll_name} has <b>{$participants_length} of {$participants_max} participants</b>
 ringpoll_prohibit_open          = Will prohibit opening next poll unless you say the magic word.
 ringpoll_no_old_poll            = No old poll to delete
+ringpoll_maintenance_disabled   = 🔧 Maintenance, please come back later
 
 # Ring Wizard
 ring_wizard_create_logo         = Create Ring Logo
