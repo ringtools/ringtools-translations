@@ -74,8 +74,6 @@ donate_thankyou_expired = {donate_thankyou}
 
 donation_received = &#128591; Muchas gracias <b>{$username}</b>, hemos recibido tu contribución de <b>{$price}</b> sats.
 
-# -- @todo TOO TRANSLATE
-
 # Participate
 participate_nousername          = He notado que aún no tienes un nombre de usuario de Telegram, tener uno uno nos ayudaría mucho a mi y a los maestros de ceremenias... por ahora no te podemos @mencionar.
 participate_saycountry          = Di /set_country [country] para establecer tu país (e.g. NL or US)
@@ -116,6 +114,10 @@ ringpoll_already_exists         = La encuesta {$poll_name} <b>ya existe</b>
 ringpoll_has_participants       = La encuesta {$poll_name} tiene <b>{$participants_length} de {$participants_max} participantes</b>
 ringpoll_prohibit_open          = Estará prohibido abrir la siguiente encuesta a menos que digas la palabra mágica.
 
+ringleader_poll_question        = ¿Quieres ser el cabecilla?
+ringleader_poll_answer1         = Sí y tengo (algo) de experiencia
+ringleader_poll_answer2         = Si, pero no tengo experiencia
+ringleader_poll_answer3         = No, tal vez la próxima vez
 
 # Ring Wizard
 ring_wizard_create_logo         = Crear el logo del anillo

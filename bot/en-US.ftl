@@ -153,6 +153,11 @@ ringleader_congratulations      = Congratulations @{$username}, you are now the 
 ringleader_invalid_order        = @{$username} is not the last participant of the list, please ask a Master of Ceremony to reorder.
 ringleader_user_not_known       = @{$username} not found or not known to me. This happens when the user doesn't have a username or changed it. Could you say /start to me in a DM @{$usernameParam}?
 
+ringleader_poll_question        = Do you want to be the Ringleader?
+ringleader_poll_answer1         = Yes and have (some) experience
+ringleader_poll_answer2         = Yes, but I don't have any experience
+ringleader_poll_answer3         = No, maybe next time
+
 # Ring settings
 ring_mode_set                   = Ring mode set to <b>{$ringMode}</b>
 ring_mode_invalid               = Invalid ring mode
