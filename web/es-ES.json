@@ -1,0 +1,32 @@
+{
+  "Pages": {
+    "HOME": "Página principal",
+    "OVERVIEW": "Resumen",
+    "VISUAL": "Visuales",
+    "SETTINGS": "Configuración"
+  },
+  "Home": {
+    "WELCOME_HEADER": "Bienvenido a RingTools Web",
+    "WELCOME_TEXT": "Informe cualquier problema en <a href=\"https://github.com/ringtools/ringtools-web/issues\" target=\"_blank\"><i class=\"bi bi-github\"></i> GitHub</a> si los encuentras, ¡disfrútalos!",
+    "DONATE_TEXT": "Operar la infraestructura de RingTools no es gratuito. Si le gusta RingTools, considere ",
+    "DONATE_LINK": "donar"
+  },
+  "Footer": {
+    "DOCUMENTATION": "Documentación",
+    "GITHUB": "Github",
+    "DONATE": "Donar"
+  },
+  "Settings": {
+    "RING_NAME": "Nombre del anillo",
+    "RING_SIZE": "Tamaño del anillo",
+    "BTN_IMPORT_GROUPNODES": "Importar Nodos de Grupo",
+    "BTN_SAVE_RING_SETTINGS": "Recordar configuración de anillo",
+    "BTN_ADD": "Agregar",
+    "BTN_LOAD": "Cargar",
+    "BTN_REMOVE": "Eliminar",
+    "BTN_PARSE_CAPACITY": "Actualizar capacidad",
+    "SAVED_RINGS": "Anillos recordados",
+    "NO_SAVED_RINGS": "Sin anillos recordados",
+    "LANGUAGE": "idioma"
+  }
+}
