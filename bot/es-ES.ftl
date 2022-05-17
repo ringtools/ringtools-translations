@@ -65,7 +65,7 @@ donate_thankyou = ¡Eres increíble <b>{$first_name}</b>! Gracias por contribuir
 
 donate_thankyou_pr = {donate_thankyou}
                      {$memo}
-                     Factura Lightning: <code>{$payment_request}</code> (expira en 30 minutos)
+                     Factura Lightning: <pre>{$payment_request}</pre> (expira en 30 minutos)
 
 donate_yourmessage = Tu mensaje: <i>{$message}</i>
 
@@ -163,7 +163,7 @@ ring_name_changed               = Nombre del anillo cambiado a <b>{$name}</b>
 ring_size_set                   = Tamaño del anillo cambiado a <b>{$size}</b>
 
 ring_order_amount_invalid       = El número de nodos en este orden no coincide con el número de nodos en el anillo.
-ring_order_applied              = Nuevo orden aplicado! <a href="{$link}">Ver resumen</a>`
+ring_order_applied              = Nuevo orden aplicado! <a href="{$link}">Ver resumen</a>
 
 # User
 user_no_nodes_registered        = Parece que no tienes ningún nodo registrado conmigo aún

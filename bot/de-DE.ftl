@@ -63,7 +63,7 @@ donate_thankyou = Du bist fantastisch, <b>{$first_name}</b>! Vielen Dank für de
 
 donate_thankyou_pr = {donate_thankyou}
                      {$memo}
-                     Lightning Invoice: <code>{$payment_request}</code> (läuft in 30 Minuten ab)
+                     Lightning Invoice: <pre>{$payment_request}</pre> (läuft in 30 Minuten ab)
 
 donate_yourmessage = Ihre Nachricht: <i>{$message}</i>
 
@@ -155,7 +155,7 @@ ring_name_changed               = Ringname geändert auf <b>{$name}</b>
 ring_size_set                   = Ringgrösse geändert auf <b>{$size}</b>
 
 ring_order_amount_invalid       = Die Anzahl Nodes entspricht nicht der Anzahl Nodes in diesem Ring
-ring_order_applied              = Neue Reihenfolge festgelegt <a href="{$link}">Übersicht</a>`
+ring_order_applied              = Neue Reihenfolge festgelegt <a href="{$link}">Übersicht</a>
 
 # User
 user_no_nodes_registered        = Sieht aus, als ob du noch keine Reihenfolge festgelegt hast

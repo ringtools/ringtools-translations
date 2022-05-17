@@ -65,7 +65,7 @@ donate_thankyou = Je bent geweldig <b>{$first_name}</b>! Bedankt voor je bijdrag
 
 donate_thankyou_pr = {donate_thankyou}
                      {$memo}
-                     Lightning Invoice: <code>{$payment_request}</code> (verloopt over 30 minuten)
+                     Lightning Invoice: <pre>{$payment_request}</pre> (verloopt over 30 minuten)
 
 donate_yourmessage = Jouw bericht: <i>{$message}</i>
 
@@ -130,49 +130,48 @@ ring_wizard_what_next           = Wat nu?
 ring_wizard_not_setup           = Deze ring is nog niet geconfigureerd. Voer /{$command} uit.
 ring_wizard_is_set_up           = Deze ring is al geconfigureerd. Voer /{$command} uit.
 
-
 # Igniter
-igniter_parse_error             = Oops, could not parse this igniter output. Might be split over multiple messages or invalid JSON.
-igniter_prefix_tosend           = You are going to send 
-igniter_prefix_success          = You succesfully sent 
-igniter_verb_collected          = collected
-igniter_verb_collects           = collects
-igniter_ring_summary            = <b>{$total_amt}</b> over the ring, with a total fee of <b>{$total_fees}</b> sats
-igniter_breakdown               = Let's break it down:
-igniter_line                    = {$icon} Channel <code>{$chan_id}</code> of {$pkInfo} {$verb} <b>{$fee} sats</b> fee (sum: {$sum} sats)
+igniter_parse_error             = Oeps, ik snap deze igniter output niet. Mogelijk is het verspreid over meerdere berichten of onjuiste JSON.
+igniter_prefix_tosend           = Je gaat sturen 
+igniter_prefix_success          = Je stuurde succesvol 
+igniter_verb_collected          = ontving
+igniter_verb_collects           = ontvangt
+igniter_ring_summary            = <b>{$total_amt}</b> over de ring, met kosten van <b>{$total_fees}</b> sats
+igniter_breakdown               = Even ontleden:
+igniter_line                    = {$icon} Kanaal <code>{$chan_id}</code> van {$pkInfo} {$verb} <b>{$fee} sats</b> kosten (som: {$sum} sats)
 
 # Set Ringleader
-ringleader_congratulations      = Congratulations @{$username}, you are now the ringleader of this group
+ringleader_congratulations      = Gefeliciteerd @{$username}, je bent nu de ringleader van deze groep
                                   
-                                  Can you create a non anonymous multiple choice poll to pick a date and time? 
-                                  Because of gossip it is recommended to wait 24h after the last channel is formed.
-                                  You can check the timezones of all members of this ring with /{$command}
-                                  The <a href="https://www.timeanddate.com/worldclock/meeting.html">World Meeting Planner</a> might also be useful.
-ringleader_invalid_order        = @{$username} is not the last participant of the list, please ask a Master of Ceremony to reorder.
-ringleader_user_not_known       = @{$username} not found or not known to me. This happens when the user doesn't have a username or changed it. Could you say /start to me in a DM @{$usernameParam}?
+                                  Kan je een niet-anonieme, meer keuze poll maken om een datum en tijd te kiezen om te balanceren?
+                                  Vanwege gossip is het aan te raden om 24 uur te wachten nadat het laatste kanaal is gevormd.
+                                  Je kunt alle tijdzones in deze groep bekijken met /{$command}
+                                  De <a href="https://www.timeanddate.com/worldclock/meeting.html">World Meeting Planner</a> is waarschijnlijk ook handig.
+ringleader_invalid_order        = @{$username} is niet de laatste deelnemer in de lijst, vraag een Master of Ceremony om te herordenen.
+ringleader_user_not_known       = @{$username} is gevonden of niet bekend bij mij. Dit gebeurt als de gebruiker geen gebruikersnaam heeft, of als deze is veranderd. Zou je /start tegen me kunnen zeggen in een DM @{$usernameParam}?
 
 # Ring settings
-ring_mode_set                   = Ring mode set to <b>{$ringMode}</b>
-ring_mode_invalid               = Invalid ring mode
-ring_name_changed               = Ring name changed to <b>{$name}</b>
-ring_size_set                   = Ring size changed to <b>{$size}</b>
+ring_mode_set                   = Ring mode ingesteld op <b>{$ringMode}</b>
+ring_mode_invalid               = Ongeldige ring mode
+ring_name_changed               = Ring naam ingesteld op <b>{$name}</b>
+ring_size_set                   = Ring grootte ingesteld op <b>{$size}</b>
 
-ring_order_amount_invalid       = The amount of nodes in this order does not match the amount of nodes in this ring.
-ring_order_applied              = New order applied! <a href="{$link}">view overview</a>`
+ring_order_amount_invalid       = Het aantal nodes in de volgorde klopt niet met het aantal nodes in deze ring.
+ring_order_applied              = Nieuwe volgorde toegepast! <a href="{$link}">Bekijk overzicht</a>
 
 # User
-user_no_nodes_registered        = Looks like you don't have any nodes registered with me yet
-user_delete_which_node          = Which node do you want to remove?
-country_visibility              = Country visibility in public polls is now <b>{$state}</b>
+user_no_nodes_registered        = Het ziet er naar uit dat ik nog geen van je nodes ken
+user_delete_which_node          = Welke node wil je verwijderen?
+country_visibility              = Land zichtbaarheid bij inschrijvingen is nu <b>{$state}</b>
 
 # Channel
-channel_invalid_format          = This doesnt look like a channel. 
-channel_not_found               = I can't find a channel with ID {$channel}, it might be very new or it doesn't exist.
+channel_invalid_format          = Dit ziet er niet uit als een kanaal. 
+channel_not_found               = Ik kan geen kanaal vinden met ID {$channel}, misschien is het erg nieuw of het bestaat gewoon niet.
 
-channel_no_fee_policy           = No fee policy known from <code>${$pubkey}</code>... gossip didn't reach me yet. Might be a new channel?
+channel_no_fee_policy           = Geen kosten beleid gevonden van <code>${$pubkey}</code>... gossip heeft me nog niet bereikt. Misschien een erg nieuw kanaal?
 
-chaninfo_help                   = You have to use me like <code>/{$command} [channel_id]</code>
+chaninfo_help                   = Je moet me als volgt gebruiken: <code>/{$command} [channel_id]</code>
 chaninfo_invalid                = {channel_invalid_format} {chaninfo_help}
 
 # Node
-nodeinfo_error_pubkey           = {invalid_pubkey} You have to use me like <code>/{$command} [pub_key]</code>
+nodeinfo_error_pubkey           = {invalid_pubkey} Je moet me als volgt gebruiken: <code>/{$command} [pub_key]</code>
