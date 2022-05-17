@@ -86,9 +86,9 @@ participate_button_iamfrom      = I am from {$ccEmoji}
 participate_which_node          = Which of your nodes do you want to use in this ring?
 
 participate_add_pubkey          = Please add your pubkey.
-participate_country_set         = Country of {$username} set to {$ccEmoji}
+participate_country_set         = Country of {$username} set to {$ccEmoji}. If you want me to remember your country for other rings, say /start to me in a DM.
 participate_funded_set_user     = {$username} is set to {$prefixFunded}funded
-participate_not_funded_prefix   = not
+participate_not_funded_prefix   = not 
 
 participate_funded_set          = Thank you <b>{$first_name}</b>, you are now set to funded
 
