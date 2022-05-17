@@ -114,7 +114,7 @@ ringpoll_already_exists         = La encuesta {$poll_name} <b>ya existe</b>
 ringpoll_has_participants       = La encuesta {$poll_name} tiene <b>{$participants_length} de {$participants_max} participantes</b>
 ringpoll_prohibit_open          = Estará prohibido abrir la siguiente encuesta a menos que digas la palabra mágica.
 
-ringleader_poll_question        = ¿Quieres ser el cabecilla?
+ringleader_poll_question        = ¿Quieres coordinar este Anillo?
 ringleader_poll_answer1         = Sí y tengo (algo) de experiencia
 ringleader_poll_answer2         = Si, pero no tengo experiencia
 ringleader_poll_answer3         = No, tal vez la próxima vez
