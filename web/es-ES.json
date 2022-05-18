@@ -7,7 +7,7 @@
   },
   "Home": {
     "WELCOME_HEADER": "Bienvenido a RingTools Web",
-    "WELCOME_TEXT": "Informe cualquier problema en <a href=\"https://github.com/ringtools/ringtools-web/issues\" target=\"_blank\"><i class=\"bi bi-github\"></i> GitHub</a> si los encuentras, ¡disfrútalos!",
+    "WELCOME_TEXT": "Si tiene algún problema, infórmelo en <a href=\"https://github.com/ringtools/ringtools-web/issues\" target=\"_blank\"><i class=\"bi bi-github\"></i> GitHub</a>, ¡Gracias!",
     "DONATE_TEXT": "Operar la infraestructura de RingTools no es gratuito. Si le gusta RingTools, considere ",
     "DONATE_LINK": "donar"
   },
@@ -27,6 +27,6 @@
     "BTN_PARSE_CAPACITY": "Actualizar capacidad",
     "SAVED_RINGS": "Anillos recordados",
     "NO_SAVED_RINGS": "Sin anillos recordados",
-    "LANGUAGE": "idioma"
+    "LANGUAGE": "Idioma"
   }
 }
