@@ -1,6 +1,7 @@
 # General
 not_admin               = Sie sind kein Administrator.
 not_super_admin         = Sie sind kein Super-Admin
+not_ringleader_or_admin = Sie sind kein Ringleader oder Administrator.
 
 something_went_wrong    = Hmm, etwas ist schief gelaufen, rufe besser einen Admin hinzu. Ist @djurib da?
 error_user_not_found    = Fehler beim Auffinden des Benutzers!
@@ -9,6 +10,8 @@ error_retrieving_participants = Fehler beim Abrufen der Teilnehmer
 new_user                = Anscheinend kenne ich dich noch nicht, bitte beginne mit /start
 false_format            = Hoppla, falsches Ringformat
 invalid_pubkey          = Das sieht nicht aus wie ein Pubkey 
+rate_limit_triggered    = 🚨 Zu viele Nachrichten, Spamschutz eingeschaltet.
+busy_processing         = 🔴 Überlastung, versuchen Sie es später erneut
 
 # Permissions
 invalid_permissions     = Ich habe nicht die nötigen Berechtigungen in dieser Gruppe.

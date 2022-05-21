@@ -1,6 +1,7 @@
 # General
 not_admin               = Je bent geen admin.
 not_ring_group          = Dit is geen ring groep.
+not_ringleader_or_admin = Je bent geen ringleader of admin.
 
 something_went_wrong    = Er ging iets mis, is @djurib in de buurt?
 error_user_not_found    = Gebruiker niet gevonden!
@@ -10,6 +11,7 @@ new_user                = Ik ken je nog niet, graag beginnen met /start
 wrong_format            = Oeps, verkeerde formaat.
 invalid_pubkey          = Dit ziet er niet uit als een pubkey.
 rate_limit_triggered    = 🚨 Teveel berichten, spam bescherming inschakeld.
+busy_processing         = 🔴 Overbeladen, probeer later opnieuw
 
 # Permissions
 invalid_permissions     = Ik heb geen rechten in deze groep.

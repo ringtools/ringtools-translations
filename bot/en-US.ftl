@@ -11,6 +11,7 @@ new_user                = Looks like I don't know you yet, Please start with /st
 wrong_format            = Oops wrong ring format
 invalid_pubkey          = This doesnt look like a pubkey.
 rate_limit_triggered    = 🚨 Too many messages, flood protection enabled.
+busy_processing         = 🔴 Overloaded, please try again later
 
 # Permissions
 invalid_permissions     = I don't have the right permissions in this group.
