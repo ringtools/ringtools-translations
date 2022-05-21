@@ -9,6 +9,7 @@ error_retrieving_participants = Fout opvragen deelnemers
 new_user                = Ik ken je nog niet, graag beginnen met /start
 wrong_format            = Oeps, verkeerde formaat.
 invalid_pubkey          = Dit ziet er niet uit als een pubkey.
+rate_limit_triggered    = 🚨 Teveel berichten, spam bescherming inschakeld.
 
 # Permissions
 invalid_permissions     = Ik heb geen rechten in deze groep.
