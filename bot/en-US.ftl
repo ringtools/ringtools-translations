@@ -4,7 +4,7 @@ not_super_admin         = You are not super-admin
 not_ringleader_or_admin = You are not ringleader or admin
 
 something_went_wrong    = Hmm something went wrong, better call an admin. Is @djurib around?
-error_user_not_found    = Error finding user!
+error_user_not_found    = Error finding user! Did you forget to /participate ?
 error_participant_not_found = Can't find this participant
 error_retrieving_participants = Error getting participants
 new_user                = Looks like I don't know you yet, Please start with /start
