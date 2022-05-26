@@ -30,7 +30,7 @@
     "NODE_POLICY": "Política de nodo"
   },
   "Visual": {
-    "HEADER": "": "Conexiones de nodo",
+    "HEADER": "Conexiones de nodo",
     "UNSAVED_CHANGES": "Cambios no guardados, haz clic en \"Mantenerse el orden de los canales\" para recordar.",
     "BTN_PERSIST_ORDER": "Mantenerse el orden de los canales",
     "BTN_DOWNLOAD_CHANNELS_TXT": "Descargar channels.txt",
