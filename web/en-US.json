@@ -1,4 +1,9 @@
 {
+  "General": {
+    "TG_USERNAME": "TG username",
+    "NODENAME": "Nodename",
+    "PUBLIC_KEY": "Public Key"
+  },
   "Pages": {
     "HOME": "Home",
     "OVERVIEW": "Overview",
@@ -9,7 +14,31 @@
     "WELCOME_HEADER": "Welcome to RingTools Web",
     "WELCOME_TEXT": "Please report any issues on <a href=\"https://github.com/ringtools/ringtools-web/issues\" target=\"_blank\"><i class=\"bi bi-github\"></i> GitHub</a> if you encounter them, enjoy!",
     "DONATE_TEXT": "Running the infrastructure for RingTools is not free. If you like RingTools, please consider ",
-    "DONATE_LINK": "donating"
+    "DONATE_LINK": "donating",
+    "ACKNOWLEDGEMENTS": "Acknowledgements",
+    "EXPLAIN_HEADER": "How does this work",
+    "EXPLAIN_TEXT": "Ring Participants and their information (loaded from the CSV) will be stored in your browser (LocalStorage)"
+  },
+  "Overview": {
+    "HEADER": "Ring participants",
+    "DOWNLOAD_VISUAL": "Download Visual",
+    "RED_CHANNELS": "Red channels: Fee policy missing",
+    "TH_CH_ID": "Channel ID",
+    "TH_NODE": "Node",
+    "BASE_FEE": "Base fee",
+    "FEE_RATE": "Fee rate",
+    "NODE_POLICY": "Node policy"
+  },
+  "Visual": {
+    "HEADER": "Node connections",
+    "UNSAVED_CHANGES": "Unsaved changes, click \"Persist channel order\" to save.",
+    "BTN_PERSIST_ORDER": "Persist channel order",
+    "BTN_DOWNLOAD_CHANNELS_TXT": "Download channels.txt",
+    "BTN_DOWNLOAD_PUBKEYS_TXT": "Download pubkeys.txt",
+    "BTN_DOWNLOAD_IGNITER_PUBKEYS": "Download igniter.sh pubkeys",
+    "LBL_RINGLEADER": "Ringleader",
+    "LBL_SELECT_RINGLEADER": "Select",
+    "BTN_REORDER": "Reorder"
   },
   "Footer": {
     "DOCUMENTATION": "Documentation",
@@ -27,6 +56,8 @@
     "BTN_PARSE_CAPACITY": "Parse capacity",
     "SAVED_RINGS": "Saved Rings",
     "NO_SAVED_RINGS": "No saved rings",
-    "LANGUAGE": "Language"
+    "LANGUAGE": "Language",
+    "MANUAL_ADD": "Manual add",
+    "IMPORT_AREA": "Import groupnodes from 🧀 CheeseRobot ₿"
   }
 }

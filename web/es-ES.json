@@ -1,0 +1,63 @@
+{
+  "General": {
+    "TG_USERNAME": "TG nombre de usuario",
+    "NODENAME": "Nombre del nodo",
+    "PUBLIC_KEY": "Clave pública (pubkey)"
+  },
+  "Pages": {
+    "HOME": "Página principal",
+    "OVERVIEW": "Resumen",
+    "VISUAL": "Visuales",
+    "SETTINGS": "Configuración"
+  },
+  "Home": {
+    "WELCOME_HEADER": "Bienvenido a RingTools Web",
+    "WELCOME_TEXT": "Si tiene algún problema, infórmelo en <a href=\"https://github.com/ringtools/ringtools-web/issues\" target=\"_blank\"><i class=\"bi bi-github\"></i> GitHub</a>, ¡Gracias!",
+    "DONATE_TEXT": "Operar la infraestructura de RingTools no es gratuito. Si le gusta RingTools, considere ",
+    "DONATE_LINK": "donar",
+    "ACKNOWLEDGEMENTS": "Reconocimiento",
+    "EXPLAIN_HEADER": "Cómo funciona esto",
+    "EXPLAIN_TEXT": "Los participantes del anillo y su información (cargada desde el CSV) se almacenarán en su navegador (LocalStorage)"
+  },
+  "Overview": {
+    "HEADER": "Participantes del anillo",
+    "DOWNLOAD_VISUAL": "Descargar Imagen",
+    "RED_CHANNELS": "Canales rojos: política de tarifas faltante o desconocida",
+    "TH_CH_ID": "ID del canal",
+    "TH_NODE": "Nodo",
+    "BASE_FEE": "Tarifa base",
+    "FEE_RATE": "Tarifa ppm",
+    "NODE_POLICY": "Política de nodo"
+  },
+  "Visual": {
+    "HEADER": "Conexiones de nodo",
+    "UNSAVED_CHANGES": "Cambios no guardados, haz clic en \"Mantenerse el orden de los canales\" para recordar.",
+    "BTN_PERSIST_ORDER": "Mantenerse el orden de los canales",
+    "BTN_DOWNLOAD_CHANNELS_TXT": "Descargar channels.txt",
+    "BTN_DOWNLOAD_PUBKEYS_TXT": "Descargar pubkeys.txt",
+    "BTN_DOWNLOAD_IGNITER_PUBKEYS": "Descargar claves públicas de igniter.sh",
+    "LBL_RINGLEADER": "Coordinador de anillo",
+    "LBL_SELECT_RINGLEADER": "Seleccionar",
+    "BTN_REORDER": "Reordenar"
+  },
+  "Footer": {
+    "DOCUMENTATION": "Documentación",
+    "GITHUB": "Github",
+    "DONATE": "Donar"
+  },
+  "Settings": {
+    "RING_NAME": "Nombre del anillo",
+    "RING_SIZE": "Tamaño del anillo",
+    "BTN_IMPORT_GROUPNODES": "Importar nodos de grupo",
+    "BTN_SAVE_RING_SETTINGS": "Recordar configuración de anillo",
+    "BTN_ADD": "Agregar",
+    "BTN_LOAD": "Cargar",
+    "BTN_REMOVE": "Eliminar",
+    "BTN_PARSE_CAPACITY": "Actualizar capacidad",
+    "SAVED_RINGS": "Anillos recordados",
+    "NO_SAVED_RINGS": "Sin anillos recordados",
+    "LANGUAGE": "Idioma",
+    "MANUAL_ADD": "Agregar manualmente",
+    "IMPORT_AREA": "Importar nodos de grupo desde 🧀 CheeseRobot ₿"
+  }
+}
