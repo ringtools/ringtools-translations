@@ -67,7 +67,8 @@ donate_limits = Minimum is {$lowerLimit} sats - Maximum is {$upperLimit} sats (f
 donate_thankyou = You are awesome <b>{$first_name}</b>! Thanks for donating <b>{$amount} sats</b> to Ringtools-Web development.
 donate_thankyou_pr = {donate_thankyou}
                      {$memo}
-                     Lightning Invoice: <pre>{$payment_request}</pre> (expires in 30 minutes)
+                     Lightning Invoice (expires in 30 minutes):
+                     {$payment_request}
 
 donate_yourmessage = Your message: <i>{$message}</i>
 

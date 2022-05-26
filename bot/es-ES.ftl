@@ -68,7 +68,8 @@ donate_thankyou = ¡Eres increíble <b>{$first_name}</b>! Gracias por contribuir
 
 donate_thankyou_pr = {donate_thankyou}
                      {$memo}
-                     Factura Lightning: <pre>{$payment_request}</pre> (expira en 30 minutos)
+                     Factura Lightning: (expira en 30 minutos)
+                     {$payment_request}
 
 donate_yourmessage = Tu mensaje: <i>{$message}</i>
 
