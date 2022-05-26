@@ -22,7 +22,12 @@
   "Overview": {
     "HEADER": "Ring participants",
     "DOWNLOAD_VISUAL": "Download Visual",
-    "RED_CHANNELS": "Red channels: Fee policy missing"
+    "RED_CHANNELS": "Red channels: Fee policy missing",
+    "TH_CH_ID": "Channel ID",
+    "TH_NODE": "Node",
+    "BASE_FEE": "Base fee",
+    "FEE_RATE": "Fee rate",
+    "NODE_POLICY": "Node policy"
   },
   "Visual": {
     "HEADER": "Node connections",
@@ -52,6 +57,7 @@
     "SAVED_RINGS": "Saved Rings",
     "NO_SAVED_RINGS": "No saved rings",
     "LANGUAGE": "Language",
-    "MANUAL_ADD": "Manual add"
+    "MANUAL_ADD": "Manual add",
+    "IMPORT_AREA": "Import groupnodes from 🧀 CheeseRobot ₿"
   }
 }
