@@ -1,4 +1,9 @@
 {
+  "General": {
+    "TG_USERNAME": "TG gebruikersnaam",
+    "NODENAME": "Nodenaam",
+    "PUBLIC_KEY": "Openbare Sleutel (pubkey)"
+  },
   "Pages": {
     "HOME": "Home",
     "OVERVIEW": "Overzicht",
@@ -9,7 +14,31 @@
     "WELCOME_HEADER": "Welkom bij RingTools Web",
     "WELCOME_TEXT": "Als je problemen tegenkomt, meld deze dan op <a href=\"https://github.com/ringtools/ringtools-web/issues\" target=\"_blank\"><i class=\"bi bi-github\"></i> GitHub</a>, dank!",
     "DONATE_TEXT": "Het draaien van de infrastructuur voor RingTools is niet gratis. Als je RingTools handig vind, overweeg dan om te ",
-    "DONATE_LINK": "doneren"
+    "DONATE_LINK": "doneren",
+    "ACKNOWLEDGEMENTS": "Met dank aan",
+    "EXPLAIN_HEADER": "Hoe werkt dit?",
+    "EXPLAIN_TEXT": "Ring-deelnemers en hun informatie (geladen vanuit de CSV) worden opgeslagen in de browser (LocalStorage)"
+  },
+  "Overview": {
+    "HEADER": "Ring deelnemers",
+    "DOWNLOAD_VISUAL": "Download Afbeelding",
+    "RED_CHANNELS": "Rode kanalen: tarief ontbreekt of onbekend",
+    "TH_CH_ID": "Kanaal ID",
+    "TH_NODE": "Node",
+    "BASE_FEE": "Basis tarief",
+    "FEE_RATE": "ppm tarief",
+    "NODE_POLICY": "Node beleid"
+  },
+  "Visual": {
+    "HEADER": "Node Verbindingen",
+    "UNSAVED_CHANGES": "Niet opgeslagen wijzigingen, klik \"Kanaal volgorde opslaan\" om op te slaan.",
+    "BTN_PERSIST_ORDER": "Kanaal volgorde opslaan",
+    "BTN_DOWNLOAD_CHANNELS_TXT": "Download channels.txt",
+    "BTN_DOWNLOAD_PUBKEYS_TXT": "Download pubkeys.txt",
+    "BTN_DOWNLOAD_IGNITER_PUBKEYS": "Download igniter.sh pubkeys",
+    "LBL_RINGLEADER": "Ringleider",
+    "LBL_SELECT_RINGLEADER": "Selecteer",
+    "BTN_REORDER": "Volgorde aanpassen"
   },
   "Footer": {
     "DOCUMENTATION": "Documentatie",
@@ -27,6 +56,8 @@
     "BTN_PARSE_CAPACITY": "Parse capacity",
     "SAVED_RINGS": "Opgeslagen ringen",
     "NO_SAVED_RINGS": "Geen opgeslagen ringen",
-    "LANGUAGE": "Taal"
+    "LANGUAGE": "Taal",
+    "MANUAL_ADD": "Handmatig toevoegen",
+    "IMPORT_AREA": "Importeer groepnodes van 🧀 CheeseRobot ₿"
   }
 }
