@@ -20,7 +20,7 @@
     "EXPLAIN_TEXT": "Los participantes del anillo y su información (cargada desde el CSV) se almacenarán en su navegador (LocalStorage)"
   },
   "Overview": {
-    "HEADER": "Participantes del anillo",
+    "HEADER": "Participantes del Anillo",
     "DOWNLOAD_VISUAL": "Descargar Imagen",
     "RED_CHANNELS": "Canales rojos: política de tarifas faltante o desconocida",
     "TH_CH_ID": "ID del canal",
@@ -30,7 +30,7 @@
     "NODE_POLICY": "Política de nodo"
   },
   "Visual": {
-    "HEADER": "Conexiones de nodo",
+    "HEADER": "Conexiones entre Nodos",
     "UNSAVED_CHANGES": "Cambios no guardados, haz clic en \"Mantenerse el orden de los canales\" para recordar.",
     "BTN_PERSIST_ORDER": "Mantenerse el orden de los canales",
     "BTN_DOWNLOAD_CHANNELS_TXT": "Descargar channels.txt",
