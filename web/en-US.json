@@ -23,11 +23,13 @@
     "HEADER": "Ring participants",
     "DOWNLOAD_VISUAL": "Download Visual",
     "RED_CHANNELS": "Red channels: Fee policy missing",
+    "MIN_MAX_HTLC_IN_SATS": "Min/Max HTLC values are shown in sats",
     "TH_CH_ID": "Channel ID",
     "TH_NODE": "Node",
     "BASE_FEE": "Base fee",
     "FEE_RATE": "Fee rate",
-    "NODE_POLICY": "Node policy"
+    "NODE_POLICY": "Node policy",
+    "MIN_MAX_HTLC": "Min/Max HTLC"
   },
   "Visual": {
     "HEADER": "Node connections",
@@ -58,6 +60,9 @@
     "NO_SAVED_RINGS": "No saved rings",
     "LANGUAGE": "Language",
     "MANUAL_ADD": "Manual add",
-    "IMPORT_AREA": "Import groupnodes from 🧀 CheeseRobot ₿"
+    "IMPORT_AREA": "Import groupnodes from 🧀 CheeseRobot ₿",
+    "TOGGLE_SHOW_LOGO": "Show SR RoF logo",
+    "TOGGLE_USE_SHORT_CHANID": "Use short channel IDs (broken)",
+    "TOGGLE_SHOW_ADVANCED": "Advanced View (show min/max HTLC)"
   }
 }
