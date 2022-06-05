@@ -1,6 +1,6 @@
 {
   "General": {
-    "TG_USERNAME": "TG Benutzername",
+    "TG_USERNAME": "TG-Benutzername",
     "NODENAME": "Node-Name",
     "PUBLIC_KEY": "Public Key"
   },
@@ -13,26 +13,28 @@
   "Home": {
     "WELCOME_HEADER": "Willkommen bei RingTools Web",
     "WELCOME_TEXT": "Melde Fehler bitte auf <a href=\"https://github.com/ringtools/ringtools-web/issues\" target=\"_blank\"><i class=\"bi bi-github\"></i> GitHub</a>, wenn Du welche entdeckst, viel Erfolg!",
-    "DONATE_TEXT": "Der Betrieb der Infrastruktur für RingTools ist nicht kostenlos. Wenn Du RingTools magst, überlege bitte ",
-    "DONATE_LINK": "spenden",
+    "DONATE_TEXT": "Der Betrieb der Infrastruktur für RingTools ist nicht kostenlos. Wenn Du RingTools magst, denke bitte darüber nach, ",
+    "DONATE_LINK": "zu spenden",
     "ACKNOWLEDGEMENTS": "Anerkennung",
     "EXPLAIN_HEADER": "Wie es funktioniert",
     "EXPLAIN_TEXT": "Ringteilnehmer und ihre Informationen (aus der CSV-Datei) werden in Deinem Browser (LocalStorage) gespeichert."
   },
   "Overview": {
-    "HEADER": "Ring Teilnehmer",
+    "HEADER": "Ring-Teilnehmer",
     "DOWNLOAD_VISUAL": "Visualisierung herunterladen",
-    "RED_CHANNELS": "Rote Kanäle: Gebühren Richtlinien fehlen",
+    "RED_CHANNELS": "Rote Kanäle: Gebührenrichtlinien fehlen",
+    "MIN_MAX_HTLC_IN_SATS": "Minimale/Maximale HTLC-Werte werden in Satoshis angezeigt",
     "TH_CH_ID": "Kanal-ID",
     "TH_NODE": "Node",
-    "BASE_FEE": "Standard Gebühr",
+    "BASE_FEE": "Standardgebühr",
     "FEE_RATE": "Gebührensatz",
-    "NODE_POLICY": "Node Richtlinie"
+    "NODE_POLICY": "Node-Richtlinie"
+    "MIN_MAX_HTLC": "Minimale/Maximale HTLC"
   },
   "Visual": {
-    "HEADER": "Node Verbindungen",
-    "UNSAVED_CHANGES": "Ungesicherte Einstellungen, wähle \"Kanal Reihenfolge sichern\" to save.",
-    "BTN_PERSIST_ORDER": "Kanal Reihenfolge sichern",
+    "HEADER": "Node-Verbindungen",
+    "UNSAVED_CHANGES": "Ungesicherte Einstellungen, wähle \"Kanalreihenfolge sichern\", um sie zu speichern.",
+    "BTN_PERSIST_ORDER": "Kanalreihenfolge sichern",
     "BTN_DOWNLOAD_CHANNELS_TXT": "channels.txt herunterladen",
     "BTN_DOWNLOAD_PUBKEYS_TXT": "pubkeys.txt herunterladen",
     "BTN_DOWNLOAD_IGNITER_PUBKEYS": "igniter.sh pubkeys herunterladen",
@@ -46,7 +48,7 @@
     "DONATE": "Spenden"
   },
   "Settings": {
-    "RING_NAME": "Ring Name",
+    "RING_NAME": "Ringname",
     "RING_SIZE": "Größe des Rings",
     "BTN_IMPORT_GROUPNODES": "Gruppen-Nodes importieren",
     "BTN_SAVE_RING_SETTINGS": "Ring-Einstellungen speichern",
@@ -58,6 +60,9 @@
     "NO_SAVED_RINGS": "Keine gespeicherten Ringe",
     "LANGUAGE": "Sprache",
     "MANUAL_ADD": "Manuell hinzufügen",
-    "IMPORT_AREA": "Gruppen-Nodes vom 🧀 CheeseRobot ₿ importieren"
+    "IMPORT_AREA": "Gruppen-Nodes vom 🧀 CheeseRobot ₿ importieren",
+    "TOGGLE_SHOW_LOGO": "Zeige das SR RoF-Logo",
+    "TOGGLE_USE_SHORT_CHANID": "Kurze Channel-IDs zeigen (aktuell nicht funktionsfähig)",
+    "TOGGLE_SHOW_ADVANCED": "Erweiterte Ansicht (Minimale/Maximale HTLC anzeigen)"
   }
 }
