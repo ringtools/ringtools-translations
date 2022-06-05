@@ -12,9 +12,9 @@
   },
   "Home": {
     "WELCOME_HEADER": "Willkommen bei RingTools Web",
-    "WELCOME_TEXT": "Melde Fehler bitte auf <a href=\"https://github.com/ringtools/ringtools-web/issues\" target=\"_blank\"><i class=\"bi bi-github\"></i> GitHub</a>, wenn Du welche entdeckst, viel Erfolg!",
-    "DONATE_TEXT": "Der Betrieb der Infrastruktur für RingTools ist nicht kostenlos. Wenn Du RingTools magst, überlege bitte ",
-    "DONATE_LINK": "spenden",
+    "WELCOME_TEXT": "Melde Fehler bitte auf <a href=\"https://github.com/ringtools/ringtools-web/issues\" target=\"_blank\"><i class=\"bi bi-github\"></i> GitHub</a>, wenn Du welche entdeckst - vielen Dank!",
+    "DONATE_TEXT": "Der Betrieb der Infrastruktur für RingTools ist nicht kostenlos. Wenn Du RingTools magst, kannst Du uns mit einer ",
+    "DONATE_LINK": "Spende unterstützen",
     "ACKNOWLEDGEMENTS": "Anerkennung",
     "EXPLAIN_HEADER": "Wie es funktioniert",
     "EXPLAIN_TEXT": "Ringteilnehmer und ihre Informationen (aus der CSV-Datei) werden in Deinem Browser (LocalStorage) gespeichert."
@@ -23,11 +23,13 @@
     "HEADER": "Ring Teilnehmer",
     "DOWNLOAD_VISUAL": "Visualisierung herunterladen",
     "RED_CHANNELS": "Rote Kanäle: Gebühren Richtlinien fehlen",
+    "MIN_MAX_HTLC_IN_SATS": "Min/Max HTLC Werte werden in sats angezeigt",
     "TH_CH_ID": "Kanal-ID",
     "TH_NODE": "Node",
     "BASE_FEE": "Standard Gebühr",
     "FEE_RATE": "Gebührensatz",
-    "NODE_POLICY": "Node Richtlinie"
+    "NODE_POLICY": "Node Richtlinie",
+    "MIN_MAX_HTLC": "Min/Max HTLC"
   },
   "Visual": {
     "HEADER": "Node Verbindungen",
@@ -58,6 +60,9 @@
     "NO_SAVED_RINGS": "Keine gespeicherten Ringe",
     "LANGUAGE": "Sprache",
     "MANUAL_ADD": "Manuell hinzufügen",
-    "IMPORT_AREA": "Gruppen-Nodes vom 🧀 CheeseRobot ₿ importieren"
+    "IMPORT_AREA": "Gruppen-Nodes vom 🧀 CheeseRobot ₿ importieren",
+    "TOGGLE_SHOW_LOGO": "SR RoF Logo anzeigen",
+    "TOGGLE_USE_SHORT_CHANID": "Kurze Kanal-IDs verwenden (defekt)",
+    "TOGGLE_SHOW_ADVANCED": "Erweiterte Ansicht (zeigt min/max HTLC)"
   }
 }
