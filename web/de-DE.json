@@ -28,7 +28,7 @@
     "TH_NODE": "Node",
     "BASE_FEE": "Standardgebühr",
     "FEE_RATE": "Gebührensatz",
-    "NODE_POLICY": "Node-Richtlinie"
+    "NODE_POLICY": "Node-Richtlinie",
     "MIN_MAX_HTLC": "Minimale/Maximale HTLC"
   },
   "Visual": {
