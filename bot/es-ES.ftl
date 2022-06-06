@@ -112,7 +112,7 @@ unparticipate_no_part_of_ring   = Tu nodo no es parte de este anillo.
 unparticipate_success           = Ya no participarás en este anillo.
 
 # Polls
-ringpoll_text                   = Te gustaría unirte a {$poll_name}
+ringpoll_text                   = Te gustaría unirte a <b>{$poll_name}</b>
 ringpoll_still_open             = {$poll_name} sigue abierto
 ringpoll_already_exists         = La encuesta {$poll_name} <b>ya existe</b>
 ringpoll_has_participants       = La encuesta {$poll_name} tiene <b>{$participants_length} de {$participants_max} participantes</b>

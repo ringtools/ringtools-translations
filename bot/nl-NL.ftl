@@ -112,7 +112,7 @@ unparticipate_no_part_of_ring   = Jouw node is geen onderdeel van deze ring.
 unparticipate_success           = Je doet niet meer mee in deze ring.
 
 # Polls
-ringpoll_text                   = Wil je mee doen met {$poll_name}
+ringpoll_text                   = Wil je mee doen met <b>{$poll_name}</b>?
 ringpoll_still_open             = {$poll_name} nog steeds open
 ringpoll_already_exists         = Poll {$poll_name} <b>bestaat al</b>
 ringpoll_has_participants       = Poll {$poll_name} heeft <b>{$participants_length} van {$participants_max} deelnemers</b>
